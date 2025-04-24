@@ -50,7 +50,7 @@ pip install -r requirements.txt
 3. Execute o script principal (em `src/`) via terminal ou IDE (como VS Code):
 
 ```
-python src/main.py
+python main.py
 
 ```
 

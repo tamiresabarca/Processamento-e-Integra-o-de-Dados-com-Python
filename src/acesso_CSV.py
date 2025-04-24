@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Carrega diretamente o arquivo CSV — mas essa linha provavelmente está aqui só para testar (ver observação abaixo)
-csv_path = pd.read_csv('C:/Projeto/data/dados_clientes_sujos_3000_v2.csv')  
+csv_path = pd.read_csv('..\data\dados_clientes_sujos_3000_v2.csv')  
 
 
 #---------------------------------------------#

@@ -29,7 +29,7 @@ if __name__ == "__main__":
     #----------------------------
 
     # Caminho do arquivo CSV com os dados brutos
-    csv_path = 'C:/Projeto/data/dados_clientes_sujos_3000_v2.csv'
+    csv_path = '..\data\dados_clientes_sujos_3000_v2.csv'
 
     # URL do Azure Key Vault (onde estão armazenadas as credenciais do banco)
     vault_url = "https://kv-academy-01.vault.azure.net/"
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     table_name = "clientes_limpos"
 
     # Caminho onde os dados tratados serão salvos localmente
-    output_path = 'C:/Projeto/data/clientes_limpos.csv'
+    output_path = '..\data\clientes_limpos.csv'
 
     #----------------------------
     # 1. Carregamento dos dados
